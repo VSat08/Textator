@@ -4,6 +4,7 @@ import Alert from './Component/Alert';
 import Navbar from './Component/Navbar';
 import TextForm from './Component/TextForm';
 import About from './Component/About';
+import Footer from './Component/Footer';
 import {
   BrowserRouter,
   Routes,
@@ -48,21 +49,17 @@ function App() {
 
         <Alert alert={alert} />
 
-        <div className={`container my-3 text-${modeText} bg-${mode}`}>
+        <div className={`container-fluid py-5 text-${modeText} bg-${mode}`}>
           <Routes>
 
             <Route index path="/Textator" element={<TextForm heading='Enter Text to analyze' showAlert={showAlert} />} />
             <Route path="/about" element={<About modeText={modeText} mode={mode} />} />
-
-
-
           </Routes>
-
-
-
         </div>
       </BrowserRouter>
+      <Footer mode={mode} modeText={modeText} />
     </div>
+
   );
 }
 

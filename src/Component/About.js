@@ -13,7 +13,7 @@ function About(props) {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div className={`accordion-body lead text-${props.modeText} bg-${props.mode === 'dark'? 'secondary' :'light'}`}>
-                            Textator gives you a way to analyze your text quickly and efficiently. Be it word count, character count or
+                            Textator gives you a way to analyze your text quickly and efficiently. Be it word count, character count
                         </div>
                     </div>
                 </div>
