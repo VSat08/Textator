@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Textator/static/css/main.677b5347.css",
+    "main.js": "/Textator/static/js/main.c1c9e096.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Textator/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Textator/index.html",
+    "main.677b5347.css.map": "/Textator/static/css/main.677b5347.css.map",
+    "main.c1c9e096.js.map": "/Textator/static/js/main.c1c9e096.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Textator/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.677b5347.css",
+    "static/js/main.c1c9e096.js"
+  ]
+}
